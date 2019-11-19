@@ -6,6 +6,7 @@
 header {
   background-color: #f5f4da;
   text-align: center;
+  margin: 0;
 }
 
 footer {
@@ -24,10 +25,22 @@ main {
 
 .gg {
   padding-left: 1px;
-  background-color: whitesmoke;
   margin-left: 5px;
-  background: whitesmoke;
-  background-color: whitesmoke;
+  padding: 10px;
+  margin: 10px;
+  background: #f5f4da;
+  max-width: 600px;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+
+#sc {
+  display: flex;
+  margin: 0;
+}
+
+#align {
+  text-align: center;
 }
 
 .ogg {
@@ -35,7 +48,7 @@ main {
   position: -webkit-sticky;
 }
 
-main {
+section {
 }
 
 h1 {
@@ -64,8 +77,8 @@ aside {
 }
 
 p {
-  font-size: 1.5em;
-  text-align: justify;
+  font-size: 1em;
+  text-align: left;
   padding-left: 5px;
   padding-right: 5px;
 }
