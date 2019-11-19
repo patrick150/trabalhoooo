@@ -1,2 +1,0 @@
-# trabalhoooo
-Created with CodeSandbox
